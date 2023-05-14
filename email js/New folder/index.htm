@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+emailjs.init("XCTkTgkTb7LJPDkuF");
+})();
+</script>
+</head>
+<style>
+  .box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid red;
+    padding: 15px;
+    margin : 10px;
+  }
+  .temp{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+  }
+</style>
+<body>
+    <form enctype="text/plain">
+      FirstName: <input type="text" id="FirstName" name="FirstName">
+      Email: <input type="text" id="email" name="Email">
+      Phone Number : <input type="text" name="" id="phoneNumber">
+      Query : <input type="text" name="" id="textContent">
+      <input type="button" value="Send Email" onclick="sendEmail()">
+    </form>
+</body>
+<script src="https://kit.fon/tawesome.com/85d6ff8013.js" crossorigin="anonymous"></script>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+
+<script>
+  function sendEmail() {
+    var paras = {
+      name : document.getElementById("FirstName").value,
+      email : document.getElementById("email").value,
+      message : document.getElementById("textContent").value,
+      phoneNumber : document.getElementById("phoneNumber").value,
+    };  
+    const serviceId = "service_dxmd8ks";
+    const templateId = "template_wffbdbt";
+ emailjs.send(serviceId,templateId,paras)
+ .then(
+  res =>{
+    document.getElementById("FirstName").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("textContent").value = "";
+    console.log(res);
+    alert("Sent")
+  }
+ )
+ .catch((err) => console.log(err));
+}
+</script>
+</html>
