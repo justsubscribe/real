@@ -215,7 +215,7 @@ padding:5px 8px 0 0
 }
 #imgId1 {
   content: "";
-  background-image: url("https://drive.google.com/uc?export=view&id=1R8V0T9hSk8oAcKSxKAcST3r75snToK8m");
+  background-image: url("/img/Apex-green-valley/ug1.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -223,7 +223,7 @@ padding:5px 8px 0 0
   width: 100%;
 }
 #imgId2 {
-  background-image: url("https://drive.google.com/uc?export=view&id=1fN8RDSd9_XoYLy06NG5E_9nxPf-OtwDB");
+  background-image: url("/img/Apex-green-valley/ug2.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -231,7 +231,7 @@ padding:5px 8px 0 0
   width: 100%;
 }
 #imgId3 {
-  background-image: url("https://drive.google.com/uc?export=view&id=10LJykmB266GxRk-x_ePxnVuGByVXruip");
+  background-image: url("/img/Apex-green-valley/ug3.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -240,7 +240,7 @@ padding:5px 8px 0 0
 }
 #imgId4 {
   content: "";
-  background-image: url("https://drive.google.com/uc?export=view&id=1P0to8iNJRogSLxCZyvzA_hCObKMUBNdt");
+  background-image: url("/img/Apex-green-valley/ug4.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -248,7 +248,7 @@ padding:5px 8px 0 0
   width: 100%;
 }
 #imgId5 {
-  background-image: url("https://drive.google.com/uc?export=view&id=1ONMGQoCKOu9Ohl2wwiAhTmYxEm-9OI9s");
+  background-image: url("#");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1032,51 +1032,51 @@ h4 {
   padding: 20px 0;
 }
 #interiorSlideImg1 {
-  background: url("https://drive.google.com/uc?export=view&id=1n9NxFxeoHMQlNl_stelqRhJO9ZomRSzL") !important;
+  background: url("/img/Apex-green-valley/flooring.webp") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interiorSlideImg2 {
-  background: url("https://drive.google.com/uc?export=view&id=1k6Co8Yrj8RmE3RLZVsd7IvB6vWdpSPtL") !important ;
+  background: url("/img/Apex-green-valley/kitchen.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interiorSlideImg3 {
-  background: url("https://drive.google.com/uc?export=view&id=1JMBvSs6tDbIEZL7aAOlVU1wbPt_7f1H5") !important ;
+  background: url("/img/Apex-green-valley/toilet\ fettings.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interiorSlideImg4 {
-  background: url("https://drive.google.com/uc?export=view&id=1bN80gslYNqF1QqV4ZV_lloK-lSks1EVc") !important ;
+  background: url("/img/Apex-green-valley/wall\ finishing.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 /* ------------------------------------------------ */
 #interior-imageId1 {
-  background: url("https://drive.google.com/uc?export=view&id=1n9NxFxeoHMQlNl_stelqRhJO9ZomRSzL") !important;
+  background: url("/img/Apex-green-valley/flooring.webp") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 
 #interior-imageId2 {
-  background: url("https://drive.google.com/uc?export=view&id=1k6Co8Yrj8RmE3RLZVsd7IvB6vWdpSPtL") !important ;
+  background: url("/img/Apex-green-valley/kitchen.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interior-imageId3 {
-  background: url("https://drive.google.com/uc?export=view&id=1JMBvSs6tDbIEZL7aAOlVU1wbPt_7f1H5") !important ;
+  background: url("/img/Apex-green-valley/toilet\ fettings.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interior-imageId4 {
-  background: url("https://drive.google.com/uc?export=view&id=1bN80gslYNqF1QqV4ZV_lloK-lSks1EVc") !important ;
+  background: url("/img/Apex-green-valley/wall\ finishing.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -1163,40 +1163,40 @@ btn54Outer1{
   }
 }
 #galleryImage1 {
-  background: url("https://drive.google.com/uc?export=view&id=16YmsbmyPotubnL89QIvc-T9sQNgeLUQ2");
+  background: url("/img/Apex-green-valley/lg1.webp");
 }
 #galleryImage2 {
-  background: url("https://drive.google.com/uc?export=view&id=1GQRT842nAdAl94JNmw1BFit9grEWxoV_");
+  background: url("/img/Apex-green-valley/lg2.webp");
 }
 #galleryImage3 {
-  background: url("https://drive.google.com/uc?export=view&id=1WmSWyyPNe4WMbg6pDWujXqRIR1IDvt8O");
+  background: url("/img/Apex-green-valley/lg4.webp");
 }
 #galleryImage4 {
-  background: url("https://drive.google.com/uc?export=view&id=1hw_cakd9abB1vXp62R9GJjPRktXvsJh-");
+  background: url("/img/Apex-green-valley/lg3.webp");
 }
 #galleryImage5 {
-  background: url("https://drive.google.com/uc?export=view&id=19l2C3CvoEzI-2VnWh3RFn_lyanDZkOqY");
+  background: url("/img/Apex-green-valley/lg5.webp");
 }
 #galleryImage6 {
-  background: url("https://drive.google.com/uc?export=view&id=1yyuh46sb8I70dlhuR6l5k-sZrz7g6cVl");
+  background: url("/img/Apex-green-valley/lg6.webp");
 }
 #galleryImage7 {
-  background: url("https://drive.google.com/uc?export=view&id=1ZXzo2bD3TcszQbU7ziegMh8RAbret5EX");
+  background: url("/img/Apex-green-valley/lg7.webp");
 }
 #galleryImage8 {
-  background: url("https://drive.google.com/uc?export=view&id=1sdBIP7qcLMySjAMY0ax10z_lYwBNxJeb");
+  background: url("/img/Apex-green-valley/lg8.webp");
 }
 #galleryImage9 {
-  background: url("https://drive.google.com/uc?export=view&id=1gMukWgvtfRijD8wYCUNJm397anjSv9v6");
+  background: url("/img/Apex-green-valley/lg9.webp");
 }
 #galleryImage10 {
-  background: url("https://drive.google.com/uc?export=view&id=15nTRcCjKa_bFooUc2I72DGunuBjJazfP");
+  background: url("/img/Apex-green-valley/lg10.webp");
 }
 #galleryImage11 {
-  background: url("https://drive.google.com/uc?export=view&id=1P4dU6X2o8TXPQwsV7VCbuuDsQ3RqBBoA");
+  background: url("/img/Apex-green-valley/lg11.webp");
 }
 #galleryImage12 {
-  background: url("https://drive.google.com/uc?export=view&id=1RLuY3NleAatJM8-AZE7a3XVkTMEQlhqm");
+  background: url("/img/Apex-green-valley/lg12.webp");
 }
 
 .gallayImageClass {
@@ -1521,5 +1521,192 @@ color: black;
 @media screen and (max-width: 1000px) {
   .navbar .buttons2{
     display: none !important;
+  }
+}
+
+
+/*Query*/
+/*Query*/
+/*Query*/
+/*Query*/
+
+.query-box {
+  position: fixed;
+  right: 35px;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10000;
+}
+#sliderAngular {
+  font-weight: bolder;
+}
+.layingForm {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  align-content: center;
+  padding: 10px;
+  border: 2px solid #FF0042;
+  width: 50vw;
+  /* position: absolute;
+    top: 20%;
+bottom: 20%; */
+  margin: auto;
+}
+
+.layingFormDiv {
+  display: flex;
+  flex-direction: column;
+  outline: none;
+  margin: 0 10px 0 10px;
+}
+.layingInputField {
+  padding: 7px;
+}
+input[type=text], select, textarea {
+  font-family: 'Inter';
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  outline: none;
+  transition: 0.5s;
+}
+
+input[type=text]:focus {
+  border: 2px solid #6b6b6b;
+}
+
+#submit{
+  float: right;
+  background-color: #FF0042;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-family: "Inter";
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+#submit:hover{
+  background-color: #cf3636;  
+}
+
+#parentConatainer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  background-color: rgb(28, 28, 28, 0.628);
+  z-index: 10000;
+}
+.childContainer {
+  font-family: "Poppins";
+  color: #1e1e1e;
+
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.75;
+  opacity: 1;
+  top: 50%;
+  filter: blur(0px) !important ;
+  width: 40vw;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  z-index: 100000;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#queryHeading {
+  padding-top: 15px;
+  text-align: center;
+  font-family: "Poppins";
+}
+.hiding {
+  display: none !important    ;
+}
+#layeringBtn {
+  float: right;
+  background-color: #fe2929;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  margin: 5px;
+  font-family: "Inter";
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#layeringBtn:hover{
+  background-color: #cf3636;  
+}
+#queryImageMark {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/*Query*/
+/*Query*/
+/*Query*/
+/*Query*/
+
+input[type=button] {
+  float: right;
+  background-color: #fe2929;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-family: "Inter";
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: #cf3636;
+}
+#submit{
+  float: right;
+  background-color: #fe2929;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-family: "Inter";
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 680px) {
+  .childContainer {
+    font-family: "Poppins";
+    color: #1e1e1e;
+
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.75;
+    opacity: 1;
+    top: 50%;
+    filter: blur(0px) !important;
+    width: 88%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    z-index: 100000;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }

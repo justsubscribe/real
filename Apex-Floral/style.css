@@ -215,7 +215,7 @@ padding:5px 8px 0 0
 }
 #imgId1 {
   content: "";
-  background-image: url("https://drive.google.com/uc?export=view&id=1YM2tbIsULsn33chFa8EwNPFbrUcmbU_C");
+  background-image: url("/img/Apex-Floral/ug4.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -223,7 +223,7 @@ padding:5px 8px 0 0
   width: 100%;
 }
 #imgId2 {
-  background-image: url("https://drive.google.com/uc?export=view&id=1g1Sxae1LVpQh3Bj6ptIQe5d_tWACrNbc");
+  background-image: url("/img/Apex-Floral/ug2.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -231,7 +231,7 @@ padding:5px 8px 0 0
   width: 100%;
 }
 #imgId3 {
-  background-image: url("https://drive.google.com/uc?export=view&id=1OaU1_O8Rwcg6D_eLEmTtd1xzrjWbXqaN");
+  background-image: url("/img/Apex-Floral/ug3.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -240,7 +240,7 @@ padding:5px 8px 0 0
 }
 #imgId4 {
   content: "";
-  background-image: url("https://drive.google.com/uc?export=view&id=14hg18PkLPOdl-5UVYDe3kSCeRMGjVaqk");
+  background-image: url("/img/Apex-Floral/ug1.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -248,7 +248,7 @@ padding:5px 8px 0 0
   width: 100%;
 }
 #imgId5 {
-  background-image: url("https://drive.google.com/uc?export=view&id=1ONMGQoCKOu9Ohl2wwiAhTmYxEm-9OI9s");
+  background-image: url("https://drive.google.com/uc?export=view&id=1uzAFWeQbfok8IrFOoeD1UE6jzkwJmCY_");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -674,11 +674,11 @@ padding:5px 8px 0 0
 .key-highlights-item {
   /* border: 2px solid skyblue; */
   display: flex;
-
+  align-items: center;
+  align-content: center;
   gap: 0.5rem;
   flex-wrap: wrap;
 }
-
 @media screen and (max-width: 800px) {
   .key-highlights-item {
     flex-direction: column;
@@ -1028,51 +1028,51 @@ h4 {
   padding: 20px 0;
 }
 #interiorSlideImg1 {
-  background: url("https://drive.google.com/uc?export=view&id=1mdnFtV4_ARgediZFwnGuOLEUVWj88_wT") !important;
+  background: url("/img/Apex-Floral/Flooring.webp") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interiorSlideImg2 {
-  background: url("https://drive.google.com/uc?export=view&id=15x4slxJwLu8NlVZcxA9VnD1o3__pMRjF") !important ;
+  background: url("/img/Apex-Floral/Kitchen.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interiorSlideImg3 {
-  background: url("https://drive.google.com/uc?export=view&id=1cx79N6xS29AU1cQ6YU8VkS-97wJ3XKTT") !important ;
+  background: url("/img/Apex-Floral/Toilet\ Fittings.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interiorSlideImg4 {
-  background: url("https://drive.google.com/uc?export=view&id=1BHyNJyWMSHMqeIgxznuP2FFH8ylvLnfl") !important ;
+  background: url("/img/Apex-Floral/Wall\ Finishing.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 
 #interior-imageId1 {
-  background: url("https://drive.google.com/uc?export=view&id=1mdnFtV4_ARgediZFwnGuOLEUVWj88_wT") !important;
+  background: url("/img/Apex-Floral/Flooring.webp") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 
 #interior-imageId2 {
-  background: url("https://drive.google.com/uc?export=view&id=15x4slxJwLu8NlVZcxA9VnD1o3__pMRjF") !important ;
+  background: url("/img/Apex-Floral/Kitchen.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interior-imageId3 {
-  background: url("https://drive.google.com/uc?export=view&id=1cx79N6xS29AU1cQ6YU8VkS-97wJ3XKTT") !important ;
+  background: url("/img/Apex-Floral/Toilet\ Fittings.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interior-imageId4 {
-  background: url("https://drive.google.com/uc?export=view&id=1BHyNJyWMSHMqeIgxznuP2FFH8ylvLnfl") !important ;
+  background: url("/img/Apex-Floral/Wall\ Finishing.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -1119,7 +1119,8 @@ h4 {
   }
   .content-card {
     font-size: 1.1rem;
-    padding: 10px;
+    width: 100%;
+    padding: 0 15px 25px 20px
   }
 }
 @media screen and (max-width: 500px) {
@@ -1147,40 +1148,40 @@ h4 {
   }
 }
 #galleryImage1 {
-  background: url("https://drive.google.com/uc?export=view&id=1nM4Tg3pP8n5DX9ASi0WhtdLuLVx9WGew");
+  background: url("/img/Apex-Floral/lg1.webp");
 }
 #galleryImage2 {
-  background: url("https://drive.google.com/uc?export=view&id=1LxHHsVOnXGPg5u6hpVs4sdpxE0-jhq9t");
+  background: url("/img/Apex-Floral/lg2.webp");
 }
 #galleryImage3 {
-  background: url("https://drive.google.com/uc?export=view&id=1HQp7u8jT4fR7OmVvSrC4qgt9pYKGrirJ");
+  background: url("/img/Apex-Floral/lg3.webp");
 }
 #galleryImage4 {
-  background: url("https://drive.google.com/uc?export=view&id=1gkPdQnl10ePnP6hRKebl4Hb-5cQu6BvF");
+  background: url("/img/Apex-Floral/lg4.webp");
 }
 #galleryImage5 {
-  background: url("https://drive.google.com/uc?export=view&id=1x0sQha10r4niWNKGVrtS0mAGiiJSLpg-");
+  background: url("/img/Apex-Floral/lg5.webp");
 }
 #galleryImage6 {
-  background: url("https://drive.google.com/uc?export=view&id=11IMx-DziY7b3cWMNWuv6WRKli8MY-3gh");
+  background: url("/img/Apex-Floral/lg6.webp");
 }
 #galleryImage7 {
-  background: url("https://drive.google.com/uc?export=view&id=11PQw5fbQWujxaAnNa7PrFv3P5mN42Ipk");
+  background: url("/img/Apex-Floral/lg7.webp");
 }
 #galleryImage8 {
-  background: url("https://drive.google.com/uc?export=view&id=1MAoVuOlMMy6ABWdeqIaLCAT3yBwi7rTi");
+  background: url("/img/Apex-Floral/lg8.webp");
 }
 #galleryImage9 {
-  background: url("https://drive.google.com/uc?export=view&id=1b-N9C1xukk2-0hJuK2ZwaNNazo2B28Pl");
+  background: url("/img/Apex-Floral/lg9.webp");
 }
 #galleryImage10 {
-  background: url("https://drive.google.com/uc?export=view&id=1DdWYsKL7_8QH61s8pfw5Molnhw1msXVL");
+  background: url("/img/Apex-Floral/lg10.webp");
 }
 #galleryImage11 {
-  background: url("https://drive.google.com/uc?export=view&id=1gyCz8rAMVL06s0bwsqKq3U10XgSiWt4I");
+  background: url("/img/Apex-Floral/lg11.webp");
 }
 #galleryImage12 {
-  background: url("https://drive.google.com/uc?export=view&id=1zt1N4ggNjWhvihVW-O1kYAk_-zPZW-LY");
+  background: url("/img/Apex-Floral/lg12.webp");
 }
 
 .gallayImageClass {
@@ -1505,5 +1506,192 @@ color: black;
 @media screen and (max-width: 1000px) {
   .navbar .buttons2{
     display: none !important;
+  }
+}
+
+
+/*Query*/
+/*Query*/
+/*Query*/
+/*Query*/
+
+.query-box {
+  position: fixed;
+  right: 35px;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10000;
+}
+#sliderAngular {
+  font-weight: bolder;
+}
+.layingForm {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  align-content: center;
+  padding: 10px;
+  border: 2px solid #FF0042;
+  width: 50vw;
+  /* position: absolute;
+    top: 20%;
+bottom: 20%; */
+  margin: auto;
+}
+
+.layingFormDiv {
+  display: flex;
+  flex-direction: column;
+  outline: none;
+  margin: 0 10px 0 10px;
+}
+.layingInputField {
+  padding: 7px;
+}
+input[type=text], select, textarea {
+  font-family: 'Inter';
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  outline: none;
+  transition: 0.5s;
+}
+
+input[type=text]:focus {
+  border: 2px solid #6b6b6b;
+}
+
+#submit{
+  float: right;
+  background-color: #FF0042;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-family: "Inter";
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+#submit:hover{
+  background-color: #cf3636;  
+}
+
+#parentConatainer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  background-color: rgb(28, 28, 28, 0.628);
+  z-index: 10000;
+}
+.childContainer {
+  font-family: "Poppins";
+  color: #1e1e1e;
+
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.75;
+  opacity: 1;
+  top: 50%;
+  filter: blur(0px) !important ;
+  width: 40vw;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  z-index: 100000;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#queryHeading {
+  padding-top: 15px;
+  text-align: center;
+  font-family: "Poppins";
+}
+.hiding {
+  display: none !important    ;
+}
+#layeringBtn {
+  float: right;
+  background-color: #fe2929;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  margin: 5px;
+  font-family: "Inter";
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#layeringBtn:hover{
+  background-color: #cf3636;  
+}
+#queryImageMark {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/*Query*/
+/*Query*/
+/*Query*/
+/*Query*/
+
+input[type=button] {
+  float: right;
+  background-color: #fe2929;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-family: "Inter";
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: #cf3636;
+}
+#submit{
+  float: right;
+  background-color: #fe2929;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-family: "Inter";
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 680px) {
+  .childContainer {
+    font-family: "Poppins";
+    color: #1e1e1e;
+
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.75;
+    opacity: 1;
+    top: 50%;
+    filter: blur(0px) !important;
+    width: 88%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    z-index: 100000;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }

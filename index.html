@@ -42,6 +42,79 @@
 }
 </style>
 <body>
+
+
+<div id="query-box" class="query-box" onclick="querySliderFunc()">
+    <img id="queryImageMark" src="/icons/query.png" alt="" />
+</div>
+  
+  <!--Query form-->
+  <!--Query form-->
+  <!--Query form-->
+  <!--Query form-->
+  
+  <div id="parentConatainer" class="hiding">
+    <form class="childContainer" enctype="text/plain">
+      <div>
+        <img
+          style="position:absolute; cursor: pointer; top: 0; right: 0; margin: 20px 20px 0 0;"
+          onclick="querySliderFunc()"
+          height="15px"
+          width="15px"
+          src="/icons/close.png"
+          alt=""
+        />
+      </div>
+      <h2 id="queryHeading">Ask your Query</h2>
+      <div class="layingFormDiv">
+        <label>Name</label>
+        <input
+          class="layingInputField"
+          type="text"
+          id="FirstName"
+          name="FirstName"
+          placeholder="Your Name.."
+        />
+      </div>
+      <div class="layingFormDiv">
+        <label>Email</label>
+        <input
+          class="layingInputField"
+          type="text"
+          id="email" 
+          name="Email"
+          placeholder="Your Email"
+        />
+      </div>
+      <div class="layingFormDiv">
+        <label>Phone Number</label>
+        <input
+          class="layingInputField"
+          type="text"
+          name="" 
+          id="phoneNumber"
+          placeholder="Your Phone Number"
+        />
+      </div>
+      <div
+        class="layingFormDiv"
+        style="display: flex; flex-direction: column"
+      >
+        <label>Subject</label>
+        <textarea
+          name=""
+          id="textContent"
+          cols="30"
+          rows="10"
+          style="resize: none"
+        ></textarea>
+      </div>
+      <input type="button" id="submit1" value="Send" onclick="sendEmail()">
+      
+    </form>
+  </div>
+  
+  
     <div id="myNav" class="overlay">
         <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
@@ -198,19 +271,14 @@
           </div>
         </section>
         <!---->
-        
-
-
-
-      
-    
-    
-    
       
       
-      
-      </div> 
     </div>
+  </div>
+  
+
+
+  
 
 
     
@@ -277,7 +345,7 @@
           <div class="columna">
             <div class="carda">
               <div class="divider">
-                <img src="home page card images/apex athena.jpg" alt="">
+                <img src="home page card images/apex athena.webp" alt="">
               </div>
                 <div class="content">
                     <h3>Apex Athena</h3>
@@ -312,7 +380,7 @@
           <div class="columna">
             <div class="carda">
               <div class="divider">
-                <img src="home page card images/apex floral.jpg" alt="">
+                <img src="home page card images/apex floral.webp" alt="">
               </div>
                 <div class="content">
                     <h3>Apex Floral</h3>
@@ -346,7 +414,7 @@
           <div class="columna">
             <div class="carda">
               <div class="divider">
-                <img src="home page card images/green valley.jpg" alt="">
+                <img src="home page card images/green valley.webp" alt="">
               </div>
                 <div class="content">
                     <h3>Apex Green Valley</h3>
@@ -380,7 +448,7 @@
           <div class="columna">
             <div class="carda">
               <div class="divider">
-                <img src="home page card images/media times.jpg" alt="">
+                <img src="home page card images/media times.webp" alt="">
               </div>
                 <div class="content">
                     <h3>Apex Media Times</h3>
@@ -414,7 +482,7 @@
           <div class="columna">
             <div class="carda">
               <div class="divider">
-                <img src="home page card images/apex royal cas.jpg" alt="">
+                <img src="home page card images/apex royal cas.webp" alt="">
               </div>
                 <div class="content">
                     <h3>Apex Royal Castle</h3>
@@ -448,7 +516,7 @@
           <div class="columna">
             <div class="carda">
               <div class="divider">
-                <img src="home page card images/apex_splendour_1.jpg" alt="">
+                <img src="home page card images/apex_splendour_1.webp" alt="">
               </div>
                 <div class="content">
                     <h3>Apex Splendour</h3>
@@ -482,7 +550,7 @@
           <div class="columna">
             <div class="carda">
               <div class="divider">
-                <img src="home page card images/apex-acacia-valley-770x386.jpg" alt="">
+                <img src="home page card images/apex-acacia-valley-770x386.webp" alt="">
               </div>
                 <div class="content">
                     <h3>Apex Acacia Valley</h3>
@@ -517,7 +585,7 @@
             <div class="carda">
                 <div class="divider">
                   
-                    <img src="home page card images/golf avenue.jpg" alt="">
+                    <img src="home page card images/golf avenue.webp" alt="">
                  
                 </div>
                 <div class="content">
@@ -652,7 +720,7 @@
 				<p class="footer-links">
 					  <a class="link-1" href="index.html">Home</a>
             <a href="about.html">About</a>
-            <a href="section1">Projects</a>
+            <a href="#section1">Projects</a>
             <a href="nri.html">NRIs</a>
             <a href="contact.html">Contact</a>
 				</p>
@@ -662,34 +730,6 @@
 
 		</footer>
 
-    <script>
-      function sendEmail() {
-        var paras = {
-          name : document.getElementById("FirstName").value,
-          email : document.getElementById("email").value,
-          message : document.getElementById("textContent").value,
-          phoneNumber : document.getElementById("phoneNumber").value,
-        };
-
-        const serviceId = "service_dxmd8ks";
-        const templateId = "template_wffbdbt";
-      emailjs.send(serviceId,templateId,paras)
-      .then(
-      res =>{
-        document.getElementById("FirstName").value = "";
-        document.getElementById("email").value = "";
-        document.getElementById("textContent").value = "";
-        document.getElementById("phoneNumber").value = "",
-        console.log(res);
-        alert("Your email has been send successfully!")
-      }
-      )
-      .catch((err) => console.log(err));
-      name.value="";
-
-      
-    }
-  </script>
     
 
     <script src="index.js">

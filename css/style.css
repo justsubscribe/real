@@ -3,6 +3,7 @@
 
 html {
   scroll-behavior: smooth;
+  position: relative;
 }
 
 *{
@@ -234,13 +235,154 @@ html {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 900;
-
-  transition: .3s;
 }
 
 .rad-input:checked~.rad-text {
   color: hsl(0, 0%, 40%);
 }
+
+/*Query*/
+/*Query*/
+/*Query*/
+/*Query*/
+
+.query-box {
+  position: fixed;
+  right: 35px;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10000;
+}
+#sliderAngular {
+  font-weight: bolder;
+}
+.layingForm {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  align-content: center;
+  padding: 10px;
+  border: 2px solid #FF0042;
+  width: 50vw;
+  /* position: absolute;
+    top: 20%;
+bottom: 20%; */
+  margin: auto;
+}
+
+.layingFormDiv {
+  display: flex;
+  flex-direction: column;
+  outline: none;
+  margin: 0 10px 0 10px;
+}
+.layingInputField {
+  padding: 7px;
+}
+input[type=text], select, textarea {
+  font-family: 'Inter';
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  outline: none;
+  transition: 0.5s;
+}
+
+input[type=text]:focus {
+  border: 2px solid #6b6b6b;
+}
+
+#submit{
+  float: right;
+  background-color: #FF0042;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-family: "Inter";
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+#submit:hover{
+  background-color: #cf3636;  
+}
+
+#parentConatainer {
+  position: absolute;
+  /* display: flex; */
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  background-color: rgb(28, 28, 28, 0.628);
+  z-index: 10000;
+}
+.childContainer {
+  font-family: "Poppins";
+  color: #1e1e1e;
+
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.75;
+  opacity: 1;
+  top: 50%;
+  filter: blur(0px) !important ;
+  width: 40vw;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  z-index: 100000;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#queryHeading {
+  padding-top: 15px;
+  text-align: center;
+  font-family: "Poppins";
+}
+.hiding {
+  display: none !important    ;
+}
+#layeringBtn {
+  float: right;
+  background-color: #fe2929;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  margin: 5px;
+  font-family: "Inter";
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#layeringBtn:hover{
+  background-color: #cf3636;  
+}
+#queryImageMark {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/*Query*/
+/*Query*/
+/*Query*/
+/*Query*/
+
+
+
+
+
 
 
 /* ABS */
@@ -266,6 +408,7 @@ html {
   box-shadow: 120px;
   scroll-behavior: smooth;
   border-right: 2px solid white;
+  
 }
 .sliderClass{
   width: 100%;
@@ -299,45 +442,50 @@ html {
 
 
 #slidImg1{
-background-image: url('../img//new/chuttersnap-tvHsxfMp8Gw-unsplash.jpg');
+background-image: url('../img/new/chuttersnap-tvHsxfMp8Gw-unsplash.webp');
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 height: 100vh;
 width: 100%;
+transition: none;
 }
 #slidImg2{
-background-image: url('../img/new/maria-lupan-rdDiKJcXrL4-unsplash.jpg');
+background-image: url('../img/new/maria-lupan-rdDiKJcXrL4-unsplash.webp');
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 height: 100vh;
 width: 100%;
+transition: none;
 }
 
 #slidImg3{
-background-image: url('../img/new/ivan-bandura-Uqh2z0isu6M-unsplash.jpg');
+background-image: url('../img/new/ivan-bandura-Uqh2z0isu6M-unsplash.webp');
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 height: 100vh;
 width: 100%;
+transition: none;
 }
 #slidImg4{
-background-image: url('../img/c1.jpg');
+background-image: url('../img/new/c1.jpg');
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 height: 100vh;
 width: 100%;
+transition: none;
 }
 #slidImg5{
-background-image: url("../img/new/mykyta-martynenko-BaomUSYugKI-unsplash.jpg");
+background-image: url("../img/new/mykyta-martynenko-BaomUSYugKI-unsplash_11zon.webp");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 height: 100vh;
 width: 100%;
+transition: none;
 }
 
 .space1{
@@ -657,9 +805,6 @@ input[type=button]:hover {
 }
 
 
-
-
-
 /* Style the counter cards */
 .carda {
   overflow: hidden;
@@ -784,12 +929,15 @@ input[type=button]:hover {
 
 .caption {
     
+    transition: none;
     width: 100%;
     position: absolute;
     top: 70%;
     transform: translateY(-70%);
 }
 .caption h3 {
+  
+    transition: none;
     text-align: left;
     color: #fff;
     max-width: 800px;
@@ -808,6 +956,8 @@ input[type=button]:hover {
     border-radius: 25px;
     font-family: "Century Gothic";
     font-weight: 750;
+    
+transition: none;
 }
 
 .caption a:hover{
@@ -1159,6 +1309,23 @@ section {
         z-index: 1000;
         background: none;
 
+    }
+    .childContainer {
+      font-family: "Poppins";
+      color: #1e1e1e;
+
+      position: fixed;
+      background-color: rgb(255, 255, 255);
+      opacity: 0.75;
+      opacity: 1;
+      top: 50%;
+      filter: blur(0px) !important;
+      width: 88%;
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+      z-index: 100000;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
 }
 @media screen and (max-width: 600px) {

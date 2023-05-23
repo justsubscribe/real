@@ -97,3 +97,45 @@ let timer;
     };
 firstBtn()
 
+
+const parentConatainer = document.getElementById("parentConatainer");
+    const querybox = document.getElementById("query-box");
+    let layerhide = 1;
+    const querySliderFunc = () => {
+      if (layerhide === 1) {
+        parentConatainer.classList.remove("hiding");
+        querybox.classList.add("hiding");
+        layerhide *= -1;
+      } else if (layerhide === -1) {
+        parentConatainer.classList.add("hiding");
+        querybox.classList.remove("hiding");
+        layerhide *= -1;
+      }
+    };
+
+
+    function sendEmail() {
+      var paras = {
+        name : document.getElementById("FirstName").value,
+        email : document.getElementById("email").value,
+        message : document.getElementById("textContent").value,
+        phoneNumber : document.getElementById("phoneNumber").value,
+      };
+
+      const serviceId = "service_dxmd8ks";
+      const templateId = "template_wffbdbt";
+    emailjs.send(serviceId,templateId,paras)
+    .then(
+    res =>{
+      document.getElementById("FirstName").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("textContent").value = "";
+      document.getElementById("phoneNumber").value = "",
+      console.log(res);
+      alert("Your email has been send successfully!")
+    }
+    )
+    .catch((err) => console.log(err));
+    name.value="";
+
+}
