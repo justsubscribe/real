@@ -215,7 +215,7 @@ padding:5px 8px 0 0
 }
 #imgId1 {
   content: "";
-  background-image: url("/img/Apex-Acicia/Aoex Acacia upper gallary1.webp");
+  background-image: url("../img/Apex-Acicia/Aoex Acacia upper gallary1.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -223,7 +223,7 @@ padding:5px 8px 0 0
   width: 100%;
 }
 #imgId2 {
-  background-image: url("/img/Apex-Acicia/Apex acacia upper gallery2.webp");
+  background-image: url("../img/Apex-Acicia/Apex acacia upper gallery2.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -231,7 +231,7 @@ padding:5px 8px 0 0
   width: 100%;
 }
 #imgId3 {
-  background-image: url("/img/Apex-Acicia/Apex Acacia upper galley 3.webp");
+  background-image: url("..//img/Apex-Acicia/Apex Acacia upper galley 3.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -240,7 +240,7 @@ padding:5px 8px 0 0
 }
 #imgId4 {
   content: "";
-  background-image: url("/img/Apex-Acicia/Apex Acacia Upper gallery 4.webp");
+  background-image: url("..//img/Apex-Acicia/Apex Acacia Upper gallery 4.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -248,7 +248,7 @@ padding:5px 8px 0 0
   width: 100%;
 }
 #imgId5 {
-  background-image: url("https://drive.google.com/uc?export=view&id=1uzAFWeQbfok8IrFOoeD1UE6jzkwJmCY_");
+  background-image: url("../https://drive.google.com/uc?export=view&id=1uzAFWeQbfok8IrFOoeD1UE6jzkwJmCY_");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1219,51 +1219,51 @@ h4 {
   padding: 20px 0;
 }
 #interiorSlideImg1 {
-  background: url("/img/Apex-Acicia/Flooring.webp") !important;
+  background: url("..//img/Apex-Acicia/Flooring.webp") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interiorSlideImg2 {
-  background: url("/img/Apex-Acicia/Kitchen.webp") !important ;
+  background: url("..//img/Apex-Acicia/Kitchen.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interiorSlideImg3 {
-  background: url("/img/Apex-Acicia//Toilet-Fittings.webp") !important ;
+  background: url("..//img/Apex-Acicia//Toilet-Fittings.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interiorSlideImg4 {
-  background: url("/img/Apex-Acicia/Wall-Finishing.webp") !important ;
+  background: url("..//img/Apex-Acicia/Wall-Finishing.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 
 #interior-imageId1 {
-  background: url("/img/Apex-Acicia/Flooring.webp") !important;
+  background: url("..//img/Apex-Acicia/Flooring.webp") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 
 #interior-imageId2 {
-  background: url("/img/Apex-Acicia/Kitchen.webp") !important ;
+  background: url("..//img/Apex-Acicia/Kitchen.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interior-imageId3 {
-  background: url("/img/Apex-Acicia//Toilet-Fittings.webp") !important ;
+  background: url("..//img/Apex-Acicia//Toilet-Fittings.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interior-imageId4 {
-  background: url("/img/Apex-Acicia/Wall-Finishing.webp") !important ;
+  background: url("..//img/Apex-Acicia/Wall-Finishing.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -1346,40 +1346,40 @@ btn54Outer1{
   }
 }
 #galleryImage1 {
-  background: url("/img/Apex-Acicia/12.webp");
+  background: url("..//img/Apex-Acicia/12.webp");
 }
 #galleryImage2 {
-  background: url("/img/Apex-Acicia/1.webp");
+  background: url("..//img/Apex-Acicia/1.webp");
 }
 #galleryImage3 {
-  background: url("/img/Apex-Acicia/2.webp");
+  background: url("..//img/Apex-Acicia/2.webp");
 }
 #galleryImage4 {
-  background: url("/img/Apex-Acicia/3.webp");
+  background: url("..//img/Apex-Acicia/3.webp");
 }
 #galleryImage5 {
-  background: url("/img/Apex-Acicia/4.webp");
+  background: url("..//img/Apex-Acicia/4.webp");
 }
 #galleryImage6 {
-  background: url("/img/Apex-Acicia/5.webp");
+  background: url("..//img/Apex-Acicia/5.webp");
 }
 #galleryImage7 {
-  background: url("/img/Apex-Acicia/6.webp");
+  background: url("..//img/Apex-Acicia/6.webp");
 }
 #galleryImage8 {
-  background: url("/img/Apex-Acicia/7.webp");
+  background: url("..//img/Apex-Acicia/7.webp");
 }
 #galleryImage9 {
-  background: url("/img/Apex-Acicia/8.webp");
+  background: url("..//img/Apex-Acicia/8.webp");
 }
 #galleryImage10 {
-  background: url("/img/Apex-Acicia/9.webp");
+  background: url("..//img/Apex-Acicia/9.webp");
 }
 #galleryImage11 {
-  background: url("/img/Apex-Acicia/10.webp");
+  background: url("..//img/Apex-Acicia/10.webp");
 }
 #galleryImage12 {
-  background: url("/img/Apex-Acicia/11.webp");
+  background: url("..//img/Apex-Acicia/11.webp");
 }
 
 .gallayImageClass {
