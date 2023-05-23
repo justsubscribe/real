@@ -215,7 +215,7 @@ padding:5px 8px 0 0
 }
 #imgId1 {
   content: "";
-  background-image: url("https://drive.google.com/uc?export=view&id=1ri8bhxCL3p0yPp8yL9cVAaqK9rIA2fYu");
+  background-image: url("/img/Apex-Acicia/Aoex Acacia upper gallary1.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -223,7 +223,7 @@ padding:5px 8px 0 0
   width: 100%;
 }
 #imgId2 {
-  background-image: url("https://drive.google.com/uc?export=view&id=1qZsUIX0SSiuDRUP5omxjJOeG5IWJGccs");
+  background-image: url("/img/Apex-Acicia/Apex acacia upper gallery2.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -231,7 +231,7 @@ padding:5px 8px 0 0
   width: 100%;
 }
 #imgId3 {
-  background-image: url("https://drive.google.com/uc?export=view&id=1a4-N9D0m0ttWL1aMI7_Q299xN4SL0Zh3");
+  background-image: url("/img/Apex-Acicia/Apex Acacia upper galley 3.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -240,7 +240,7 @@ padding:5px 8px 0 0
 }
 #imgId4 {
   content: "";
-  background-image: url("https://drive.google.com/uc?export=view&id=1vrvsJsCnkHf3D89I9flgfgDH5WCks2qf");
+  background-image: url("/img/Apex-Acicia/Apex Acacia Upper gallery 4.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -248,7 +248,7 @@ padding:5px 8px 0 0
   width: 100%;
 }
 #imgId5 {
-  background-image: url("https://drive.google.com/uc?export=view&id=1ONMGQoCKOu9Ohl2wwiAhTmYxEm-9OI9s");
+  background-image: url("https://drive.google.com/uc?export=view&id=1uzAFWeQbfok8IrFOoeD1UE6jzkwJmCY_");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -360,6 +360,182 @@ padding:5px 8px 0 0
   margin: 20px 50px;
   font-family: "Inter";
 }
+
+
+
+/*Query*/
+/*Query*/
+/*Query*/
+/*Query*/
+
+.query-box {
+  position: fixed;
+  right: 35px;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10000;
+}
+#sliderAngular {
+  font-weight: bolder;
+}
+.layingForm {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  align-content: center;
+  padding: 10px;
+  border: 2px solid #FF0042;
+  width: 50vw;
+  /* position: absolute;
+    top: 20%;
+bottom: 20%; */
+  margin: auto;
+}
+
+.layingFormDiv {
+  display: flex;
+  flex-direction: column;
+  outline: none;
+  margin: 0 10px 0 10px;
+}
+.layingInputField {
+  padding: 7px;
+}
+input[type=text], select, textarea {
+  font-family: 'Inter';
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  outline: none;
+  transition: 0.5s;
+}
+
+input[type=text]:focus {
+  border: 2px solid #6b6b6b;
+}
+
+#submit{
+  float: right;
+  background-color: #FF0042;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-family: "Inter";
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+#submit:hover{
+  background-color: #cf3636;  
+}
+
+#parentConatainer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  background-color: rgb(28, 28, 28, 0.628);
+  z-index: 10000;
+}
+.childContainer {
+  font-family: "Poppins";
+  color: #1e1e1e;
+
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.75;
+  opacity: 1;
+  top: 50%;
+  filter: blur(0px) !important ;
+  width: 40vw;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  z-index: 100000;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#queryHeading {
+  padding-top: 15px;
+  text-align: center;
+  font-family: "Poppins";
+}
+.hiding {
+  display: none !important    ;
+}
+#layeringBtn {
+  float: right;
+  background-color: #fe2929;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  margin: 5px;
+  font-family: "Inter";
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#layeringBtn:hover{
+  background-color: #cf3636;  
+}
+#queryImageMark {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/*Query*/
+/*Query*/
+/*Query*/
+/*Query*/
+
+input[type=button] {
+  float: right;
+  background-color: #fe2929;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-family: "Inter";
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: #cf3636;
+}
+#submit{
+  float: right;
+  background-color: #fe2929;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-family: "Inter";
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 591px) {
   .inner-inner {
@@ -821,6 +997,23 @@ padding:5px 8px 0 0
     height: 270.76px;
     max-width: 200px;
   }
+  .childContainer {
+    font-family: "Poppins";
+    color: #1e1e1e;
+
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.75;
+    opacity: 1;
+    top: 50%;
+    filter: blur(0px) !important;
+    width: 88%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    z-index: 100000;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 /* CSS */
@@ -1026,51 +1219,51 @@ h4 {
   padding: 20px 0;
 }
 #interiorSlideImg1 {
-  background: url("https://drive.google.com/uc?export=view&id=1r-yez5KTiXc2IZuBDJg-wt33GLVIXHGx") !important;
+  background: url("/img/Apex-Acicia/Flooring.webp") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interiorSlideImg2 {
-  background: url("https://drive.google.com/uc?export=view&id=1xhOJaGPD60AWI-qh6v0Xk8lv-JrBHdg_") !important ;
+  background: url("/img/Apex-Acicia/Kitchen.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interiorSlideImg3 {
-  background: url("https://drive.google.com/uc?export=view&id=1OsORTFfJoYPAHrHUUCgSfDoOqbGdEE9C") !important ;
+  background: url("/img/Apex-Acicia//Toilet-Fittings.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interiorSlideImg4 {
-  background: url("https://drive.google.com/uc?export=view&id=1Q9ZHdsLl0ZimY5E4gxnKVochutyYZmqa") !important ;
+  background: url("/img/Apex-Acicia/Wall-Finishing.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 
 #interior-imageId1 {
-  background: url("https://drive.google.com/uc?export=view&id=1r-yez5KTiXc2IZuBDJg-wt33GLVIXHGx") !important;
+  background: url("/img/Apex-Acicia/Flooring.webp") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 
 #interior-imageId2 {
-  background: url("https://drive.google.com/uc?export=view&id=1Ipj16Your6vISJTHXbaMr24muh9uE01F") !important ;
+  background: url("/img/Apex-Acicia/Kitchen.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interior-imageId3 {
-  background: url("https://drive.google.com/uc?export=view&id=1OsORTFfJoYPAHrHUUCgSfDoOqbGdEE9C") !important ;
+  background: url("/img/Apex-Acicia//Toilet-Fittings.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interior-imageId4 {
-  background: url("https://drive.google.com/uc?export=view&id=1Q9ZHdsLl0ZimY5E4gxnKVochutyYZmqa") !important ;
+  background: url("/img/Apex-Acicia/Wall-Finishing.webp") !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -1153,40 +1346,40 @@ btn54Outer1{
   }
 }
 #galleryImage1 {
-  background: url("https://drive.google.com/uc?export=view&id=10qAJtUPSXgLls3aFsUcWXlArLV9OZwtF");
+  background: url("/img/Apex-Acicia/12.webp");
 }
 #galleryImage2 {
-  background: url("https://drive.google.com/uc?export=view&id=1vQuoYmkkNUClF6T570eaKcVEPsNs99tD");
+  background: url("/img/Apex-Acicia/1.webp");
 }
 #galleryImage3 {
-  background: url("https://drive.google.com/uc?export=view&id=1WmSWyyPNe4WMbg6pDWujXqRIR1IDvt8O");
+  background: url("/img/Apex-Acicia/2.webp");
 }
 #galleryImage4 {
-  background: url("https://drive.google.com/uc?export=view&id=1-msnmNEopb6arkMD_osM6zOiYvBE0ivV");
+  background: url("/img/Apex-Acicia/3.webp");
 }
 #galleryImage5 {
-  background: url("https://drive.google.com/uc?export=view&id=19l2C3CvoEzI-2VnWh3RFn_lyanDZkOqY");
+  background: url("/img/Apex-Acicia/4.webp");
 }
 #galleryImage6 {
-  background: url("https://drive.google.com/uc?export=view&id=1HAmsSg_olYW4qGNhSKVz-Vhiwkvrql2l");
+  background: url("/img/Apex-Acicia/5.webp");
 }
 #galleryImage7 {
-  background: url("https://drive.google.com/uc?export=view&id=1ZXzo2bD3TcszQbU7ziegMh8RAbret5EX");
+  background: url("/img/Apex-Acicia/6.webp");
 }
 #galleryImage8 {
-  background: url("https://drive.google.com/uc?export=view&id=13nH3RtgQvaDY1k9oVeYwtl37YySoWvAR");
+  background: url("/img/Apex-Acicia/7.webp");
 }
 #galleryImage9 {
-  background: url("https://drive.google.com/uc?export=view&id=1gMukWgvtfRijD8wYCUNJm397anjSv9v6");
+  background: url("/img/Apex-Acicia/8.webp");
 }
 #galleryImage10 {
-  background: url("https://drive.google.com/uc?export=view&id=1PgKCkf9pM_eeJ7xRP6t1vMyh5Y_qjCWJ");
+  background: url("/img/Apex-Acicia/9.webp");
 }
 #galleryImage11 {
-  background: url("https://drive.google.com/uc?export=view&id=1wUu9YEg0d7pTzXap9BqrNIAKUY4iPOc1");
+  background: url("/img/Apex-Acicia/10.webp");
 }
 #galleryImage12 {
-  background: url("https://drive.google.com/uc?export=view&id=1bu14q-NOX7PDeeKSdsdQVdFYVLfQ27ft");
+  background: url("/img/Apex-Acicia/11.webp");
 }
 
 .gallayImageClass {
@@ -1513,3 +1706,4 @@ color: black;
     display: none !important;
   }
 }
+

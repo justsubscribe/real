@@ -18,9 +18,93 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+      (function(){
+      emailjs.init("XCTkTgkTb7LJPDkuF");
+      })();
+  </script>
+
+
 </head>
 
 <body>
+
+  <div id="query-box" class="query-box" onclick="querySliderFunc()">
+    <img id="queryImageMark" src="/icons/query.png" alt="" />
+</div>
+  
+  <!--Query form-->
+  <!--Query form-->
+  <!--Query form-->
+  <!--Query form-->
+  
+<div id="parentConatainer" class="hiding">
+    <form class="childContainer" enctype="text/plain">
+      <div>
+        <img
+          style="position:absolute; cursor: pointer; top: 0; right: 0; margin: 20px 20px 0 0;"
+          onclick="querySliderFunc()"
+          height="15px"
+          width="15px"
+          src="/icons/close.png"
+          alt=""
+        />
+      </div>
+      <h2 id="queryHeading">Ask your Query</h2>
+      <div class="layingFormDiv">
+        <label>Name</label>
+        <input
+          class="layingInputField"
+          type="text"
+          id="FirstName"
+          name="FirstName"
+          placeholder="Your Name.."
+        />
+      </div>
+      <div class="layingFormDiv">
+        <label>Email</label>
+        <input
+          class="layingInputField"
+          type="text"
+          id="email" 
+          name="Email"
+          placeholder="Your Email"
+        />
+      </div>
+      <div class="layingFormDiv">
+        <label>Phone Number</label>
+        <input
+          class="layingInputField"
+          type="text"
+          name="" 
+          id="phoneNumber"
+          placeholder="Your Phone Number"
+        />
+      </div>
+      <div
+        class="layingFormDiv"
+        style="display: flex; flex-direction: column"
+      >
+        <label>Subject</label>
+        <textarea
+          name=""
+          id="textContent"
+          cols="30"
+          rows="10"
+          style="resize: none"
+        ></textarea>
+      </div>
+      <input type="button" id="submit1" value="Send" onclick="sendEmail()">
+      
+    </form>
+</div>
+  
+
+
+
   <div id="myNav" class="overlay">
     <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="overlay-content">
@@ -76,16 +160,16 @@
     </div>
     <div class="allImagConatiner">
       <div class="slideClass">
-        <img style="top: 1px" id="slidImg1" class="slideImg" onclick="firstImgClicked()" src="https://drive.google.com/uc?export=view&id=14RD1AP2j8iMYX_iTh4AU0SZSP0h25zYG" alt="" />
+        <img style="top: 1px" id="slidImg1" class="slideImg" onclick="firstImgClicked()" src="/img/apex-splendour/shalev-cohen-KjueSklMNyY-unsplash.webp" alt="" />
       </div>
       <div class="slideClass">
-        <img id="slidImg2" class="slideImg" onclick="secondImgClicked()" src="https://drive.google.com/uc?export=view&id=1UOXxpXWvxE5CX9RfCN3v9ZAruqGCLM5T" alt="" />
+        <img id="slidImg2" class="slideImg" onclick="secondImgClicked()" src="/img/apex-splendour/jamie-street-XcmVu1ZMv6M-unsplash.webp" alt="" />
       </div>
       <div class="slideClass">
-        <img id="slidImg3" class="slideImg" onclick="thirdImgClicked()" src="https://drive.google.com/uc?export=view&id=1qYM1hzBniMi3in39-zEWOuvfR0op4A7H" alt="" />
+        <img id="slidImg3" class="slideImg" onclick="thirdImgClicked()" src="/img/apex-splendour/wallpaperflare.com_wallpaper (9).webp" alt="" />
       </div>
       <div class="slideClass">
-        <img id="slidImg4" class="slideImg" onclick="fourthImgClicked()" src="https://drive.google.com/uc?export=view&id=1ONMGQoCKOu9Ohl2wwiAhTmYxEm-9OI9s" alt="" />
+        <img id="slidImg4" class="slideImg" onclick="fourthImgClicked()" src="/img/apex-splendour/WW 3.webp" alt="" />
       </div>
     </div>
   </section>
@@ -1009,6 +1093,47 @@
     blackish3.classList.remove("blackish");
     blackish1.classList.remove("blackish");
   };
+  const parentConatainer = document.getElementById("parentConatainer");
+    const querybox = document.getElementById("query-box");
+    let layerhide = 1;
+    const querySliderFunc = () => {
+      if (layerhide === 1) {
+        parentConatainer.classList.remove("hiding");
+        querybox.classList.add("hiding");
+        layerhide *= -1;
+      } else if (layerhide === -1) {
+        parentConatainer.classList.add("hiding");
+        querybox.classList.remove("hiding");
+        layerhide *= -1;
+      }
+    };
+
+
+    function sendEmail() {
+      var paras = {
+        name : document.getElementById("FirstName").value,
+        email : document.getElementById("email").value,
+        message : document.getElementById("textContent").value,
+        phoneNumber : document.getElementById("phoneNumber").value,
+      };
+
+      const serviceId = "service_dxmd8ks";
+      const templateId = "template_wffbdbt";
+    emailjs.send(serviceId,templateId,paras)
+    .then(
+    res =>{
+      document.getElementById("FirstName").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("textContent").value = "";
+      document.getElementById("phoneNumber").value = "",
+      console.log(res);
+      alert("Your email has been send successfully!")
+    }
+    )
+    .catch((err) => console.log(err));
+    name.value="";
+
+  }
 </script>
 
 </html>

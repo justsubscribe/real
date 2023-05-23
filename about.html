@@ -21,6 +21,76 @@
 }
 </style>
 <body>
+<div id="query-box" class="query-box" onclick="querySliderFunc()">
+    <img id="queryImageMark" src="/icons/query.png" alt="" />
+</div>
+  
+  <!--Query form-->
+  <!--Query form-->
+  <!--Query form-->
+  <!--Query form-->
+  
+  <div id="parentConatainer" class="hiding">
+    <form class="childContainer" enctype="text/plain">
+      <div>
+        <img
+          style="position:absolute; cursor: pointer; top: 0; right: 0; margin: 20px 20px 0 0;"
+          onclick="querySliderFunc()"
+          height="15px"
+          width="15px"
+          src="/icons/close.png"
+          alt=""
+        />
+      </div>
+      <h2 id="queryHeading">Ask your Query</h2>
+      <div class="layingFormDiv">
+        <label>Name</label>
+        <input
+          class="layingInputField"
+          type="text"
+          id="FirstName"
+          name="FirstName"
+          placeholder="Your Name.."
+        />
+      </div>
+      <div class="layingFormDiv">
+        <label>Email</label>
+        <input
+          class="layingInputField"
+          type="text"
+          id="email" 
+          name="Email"
+          placeholder="Your Email"
+        />
+      </div>
+      <div class="layingFormDiv">
+        <label>Phone Number</label>
+        <input
+          class="layingInputField"
+          type="text"
+          name="" 
+          id="phoneNumber"
+          placeholder="Your Phone Number"
+        />
+      </div>
+      <div
+        class="layingFormDiv"
+        style="display: flex; flex-direction: column"
+      >
+        <label>Subject</label>
+        <textarea
+          name=""
+          id="textContent"
+          cols="30"
+          rows="10"
+          style="resize: none"
+        ></textarea>
+      </div>
+      <input type="button" id="submit1" value="Send" onclick="sendEmail()">
+      
+    </form>
+  </div>
+  
     <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
