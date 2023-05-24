@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins");
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins');
 * {
   margin: 0;
   padding: 0;
@@ -213,7 +213,7 @@ padding:5px 8px 0 0
 }
 #imgId1 {
   content: "";
-  background-image: url("/img/Apex-Athena/upper gallery 1.webp");
+  background-image: url('../img/Apex-Athena/upper gallery 1.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -221,7 +221,7 @@ padding:5px 8px 0 0
   width: 100%;
 }
 #imgId2 {
-  background-image: url("/img/Apex-Athena/upper galley 2.webp");
+  background-image: url('../img/Apex-Athena/upper galley 2.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -229,7 +229,7 @@ padding:5px 8px 0 0
   width: 100%;
 }
 #imgId3 {
-  background-image: url("/img/Apex-Athena/upper gallery 3.webp");
+  background-image: url('../img/Apex-Athena/upper gallery 3.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -238,7 +238,7 @@ padding:5px 8px 0 0
 }
 #imgId4 {
   content: "";
-  background-image: url("/img/Apex-Athena/upper gallery 4.webp");
+  background-image: url('../img/Apex-Athena/upper gallery 4.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -246,7 +246,7 @@ padding:5px 8px 0 0
   width: 100%;
 }
 #imgId5 {
-  background-image: url("https://drive.google.com/uc?export=view&id=1uzAFWeQbfok8IrFOoeD1UE6jzkwJmCY_");
+  background-image: url('https://drive.google.com/uc?export=view&id=1uzAFWeQbfok8IrFOoeD1UE6jzkwJmCY_');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1031,51 +1031,51 @@ h4 {
   padding: 20px 0;
 }
 #interiorSlideImg1 {
-  background: url("/img/Apex-Athena/Flooring.webp") !important;
+  background: url('../img/Apex-Athena/Flooring.webp') !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interiorSlideImg2 {
-  background: url("/img/Apex-Athena/Kitchen.webp") !important ;
+  background: url('../img/Apex-Athena/Kitchen.webp') !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interiorSlideImg3 {
-  background: url("/img/Apex-Athena/Toilet-Fittings.webp") !important ;
+  background: url('../img/Apex-Athena/Toilet-Fittings.webp') !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interiorSlideImg4 {
-  background: url("/img/Apex-Athena/Wall-Finishing.webp") !important ;
+  background: url('../img/Apex-Athena/Wall-Finishing.webp') !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 
 #interior-imageId1 {
-  background: url("/img/Apex-Athena/Flooring.webp") !important;
+  background: url('../img/Apex-Athena/Flooring.webp') !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 
 #interior-imageId2 {
-  background: url("/img/Apex-Athena/Kitchen.webp") !important ;
+  background: url('../img/Apex-Athena/Kitchen.webp') !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interior-imageId3 {
-  background: url("/img/Apex-Athena/Toilet-Fittings.webp") !important ;
+  background: url('../img/Apex-Athena/Toilet-Fittings.webp') !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 #interior-imageId4 {
-  background: url("/img/Apex-Athena/Wall-Finishing.webp") !important ;
+  background: url('../img/Apex-Athena/Wall-Finishing.webp') !important ;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -1150,40 +1150,40 @@ h4 {
   }
 }
 #galleryImage1 {
-  background: url("/img/Apex-Athena/lg1.webp");
+  background: url('../img/Apex-Athena/lg1.webp');
 }
 #galleryImage2 {
-  background: url("/img/Apex-Athena/lg2.webp");
+  background: url('../img/Apex-Athena/lg2.webp');
 }
 #galleryImage3 {
-  background: url("/img/Apex-Athena/lg3.webp");
+  background: url('../img/Apex-Athena/lg3.webp');
 }
 #galleryImage4 {
-  background: url("/img/Apex-Athena/lg4.webp");
+  background: url('../img/Apex-Athena/lg4.webp');
 }
 #galleryImage5 {
-  background: url("/img/Apex-Athena/lg5.webp");
+  background: url('../img/Apex-Athena/lg5.webp');
 }
 #galleryImage6 {
-  background: url("/img/Apex-Athena/lg6.webp");
+  background: url('../img/Apex-Athena/lg6.webp');
 }
 #galleryImage7 {
-  background: url("/img/Apex-Athena/lg7.webp");
+  background: url('../img/Apex-Athena/lg7.webp');
 }
 #galleryImage8 {
-  background: url("/img/Apex-Athena/lg8.webp");
+  background: url('../img/Apex-Athena/lg8.webp');
 }
 #galleryImage9 {
-  background: url("/img/Apex-Athena/lg9.webp");
+  background: url('../img/Apex-Athena/lg9.webp');
 }
 #galleryImage10 {
-  background: url("/img/Apex-Athena/lg10.webp");
+  background: url('../img/Apex-Athena/lg10.webp');
 }
 #galleryImage11 {
-  background: url("/img/Apex-Athena/lg11.webp");
+  background: url('../img/Apex-Athena/lg11.webp');
 }
 #galleryImage12 {
-  background: url("/img/Apex-Athena/lg12.webp");
+  background: url('../img/Apex-Athena/lg12.webp');
 }
 
 .gallayImageClass {
