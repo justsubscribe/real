@@ -7,6 +7,74 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
+.newheader{
+  text-align: center;
+}
+
+@media (max-width: 602px) {
+  .newSection{
+      font-size: 16px;
+      text-align: left;
+  }
+  .newheader{
+    font-size: 15px;
+    text-align: left;
+  }
+}
+
+
+.newDiv ul{
+  list-style: none;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.newDiv ul li {
+  margin: 10px 0px 10px 0px; ;
+  text-align: left;
+  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.whatsapp-box {
+  position: fixed;
+  right: 35px;  
+  bottom: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+.new-container{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.newSection{
+  margin: 30px 0 30px 0;
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  padding: 25px 0 ;
+}
+.priceNumber{
+  font-weight: bolder;
+}
+.newDiv a{
+  text-decoration: none;
+}
+
 /* NavBar */
 .container {
   position: relative;
@@ -1145,22 +1213,22 @@ h4 {
   }
 }
 #galleryImage1 {
-  background: url('https://drive.google.com/uc?export=view&id=10qAJtUPSXgLls3aFsUcWXlArLV9OZwtF');
+  background: url('../img/image0.jpeg');
 }
 #galleryImage2 {
   background: url('https://drive.google.com/uc?export=view&id=1vQuoYmkkNUClF6T570eaKcVEPsNs99tD');
 }
 #galleryImage3 {
-  background: url('https://drive.google.com/uc?export=view&id=1hP0z7X9Rg561IYvnvvwwcZgchRqkwQ81');
+  background: url('../img/image1.jpeg');
 }
 #galleryImage4 {
   background: url('https://drive.google.com/uc?export=view&id=1-msnmNEopb6arkMD_osM6zOiYvBE0ivV');
 }
 #galleryImage5 {
-  background: url('https://drive.google.com/uc?export=view&id=1F1ZvL_d9_hpOPGbkPmR1KeB7b7KzVg50');
+  background: url('../img/image2.jpeg');
 }
 #galleryImage6 {
-  background: url('https://drive.google.com/uc?export=view&id=1HAmsSg_olYW4qGNhSKVz-Vhiwkvrql2l');
+  background: url('../img/image4.jpeg');
 }
 #galleryImage7 {
   background: url('https://drive.google.com/uc?export=view&id=1ajAqfQ5xC4DCsvGfzlgIOxNcnguEutzo');
@@ -1169,7 +1237,7 @@ h4 {
   background: url('https://drive.google.com/uc?export=view&id=13nH3RtgQvaDY1k9oVeYwtl37YySoWvAR');
 }
 #galleryImage9 {
-  background: url('https://drive.google.com/uc?export=view&id=10VEuaV4CsRXWR6ID-KF08B2lQFXvd1ET');
+  background: url('../img/image3.jpeg');
 }
 #galleryImage10 {
   background: url('https://drive.google.com/uc?export=view&id=1PgKCkf9pM_eeJ7xRP6t1vMyh5Y_qjCWJ');

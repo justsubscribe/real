@@ -97,6 +97,16 @@ padding:5px 8px 0 0
   
 }
 
+.whatsapp-box {
+  position: fixed;
+  right: 35px;  
+  bottom: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10000;
+}
 
 .overlay {
   height: 0%;
@@ -1349,19 +1359,19 @@ btn54Outer1{
   background: url('..//img/Apex-Acicia/12.webp');
 }
 #galleryImage2 {
-  background: url('..//img/Apex-Acicia/1.webp');
+  background: url('..//img/image5.jpeg');
 }
 #galleryImage3 {
   background: url('..//img/Apex-Acicia/2.webp');
 }
 #galleryImage4 {
-  background: url('..//img/Apex-Acicia/3.webp');
+  background: url('..//img/image6.jpeg');
 }
 #galleryImage5 {
   background: url('..//img/Apex-Acicia/4.webp');
 }
 #galleryImage6 {
-  background: url('..//img/Apex-Acicia/5.webp');
+  background: url('..//img/image9.jpeg');
 }
 #galleryImage7 {
   background: url('..//img/Apex-Acicia/6.webp');
