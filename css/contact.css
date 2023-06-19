@@ -555,7 +555,16 @@ input[type=submit]:hover {
 }
 
 
-
+.whatsapp-box {
+  position: fixed;
+  right: 35px;  
+  bottom: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10000;
+}
 
 
 .nriimage{
